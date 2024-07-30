@@ -1,10 +1,10 @@
 # TextUI
 The TextUI resource was designed for the RageMP platform, but it can be modified to be used outside the platform.
 
-#Showcase
+# Showcase
 ![image](https://github.com/user-attachments/assets/381cab82-1a15-4706-a03a-616a01fb39f2)
 
-#Usage
+# Usage
 Client-side
 ```javascript
 mp.events.call("showTextUI", "E", "Pentru a deschide ATM-ul!");
@@ -17,7 +17,7 @@ player.call("showTextUI", [ "E", "Pentru a deschide ATM-ul!" ]);
 player.call("hideTextUI");
 ```
 
-#Example
+# Example
 Client-side
 ```javascript
 const checkProximityToATM = () => {
